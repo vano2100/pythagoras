@@ -1,0 +1,2 @@
+# pythagoras
+js lerning project
