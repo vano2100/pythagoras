@@ -16,11 +16,11 @@ class Game {
     this.answer = parseInt(this.$answerDisplay.textContent)
     if (this.numberA * this.numberB == this.answer) {
       this.answerString = document.createElement('p')
-      this.answerString.textContent = `${this.numberA} * ${this.numberB} = ${this.answer} - Правильно!`
+      this.answerString.textContent = `${this.numberA} * ${this.numberB} = ${this.answer} - РџСЂР°РІРёР»СЊРЅРѕ!`
       this.answerString.style = 'color: green;'
     } else {
       this.answerString = document.createElement('p')
-      this.answerString.textContent = `${this.numberA} * ${this.numberB} = ${this.answer} - Не правильно!`
+      this.answerString.textContent = `${this.numberA} * ${this.numberB} = ${this.answer} - РќРµ РїСЂР°РІРёР»СЊРЅРѕ!`
       this.answerString.style = 'color: red;'
     }
     this.$answerDisplay.textContent = ''
